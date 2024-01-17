@@ -1,0 +1,17 @@
+Index: lib/expensis.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lib/expensis.dart b/lib/expensis.dart
+--- a/lib/expensis.dart	
++++ b/lib/expensis.dart	(date 1705476466494)
+@@ -89,7 +89,7 @@
+       ),
+       body: Column(
+         children: [
+-          const Text('Chart'),
++         // const Text('Chart'),
+           Expanded(
+             child: mainContent,
+           ),
